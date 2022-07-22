@@ -1,37 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`website`](https://www.wix.com/website-template/view/html/2812?_gl=1*gyp3jc*_ga*MTY5MDExOTc0NC4xNjU0NTA5MzQ1*_ga_H314XQHSPY*MTY1NDUwOTQwOS4xLjEuMTY1NDUwOTQ3OC42MA).
+This is a [Next.js](https://nextjs.org/) start using typescript, sass and recoil 
 
 
 
-## Getting Started
+## 🏁  Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 📝 CLI templates
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+You can generate templates files for *components* and *pages* with this command: 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+yarn template
+```
+After that, type :
+ - ``page`` if you need a new page
+ - ``component`` if you need a new component
+ 
+Then type the name of the file  you want to create
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 💅 Styles
+This projet is using a sass compiler and css modules. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Theme
+Your themes files are stored in the *styles/theme* folder and should be imported in the *theme.scss* file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Each components/page style that need some theme data will need to import the theme like so: 
+```sass
+@import "@styles/theme.scss";
+```
 
-## Deploy on Vercel
+### Stylesheets
+Styles classes are using css modules and are scoped within the component or page they're used.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+ 
+ 
