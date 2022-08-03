@@ -4,7 +4,12 @@ This is a [Next.js](https://nextjs.org/) start using typescript, sass and recoil
 
 ## 🏁  Getting Started
 
-First, run the development server:
+If you just cloned the repository don't forget to install the dependancies
+```bash
+yarn install
+```
+
+Run the development server:
 
 ```bash
 yarn dev
