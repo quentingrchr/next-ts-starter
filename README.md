@@ -19,7 +19,7 @@ You can generate templates files for *components* and *pages* with this command:
 ```bash
 yarn template
 ```
-After that, type :
+Then type :
  - ``page`` if you need a new page
  - ``component`` if you need a new component
  
