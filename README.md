@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) start using typescript, sass and recoil 
 
 - [🏁  Getting Started](#-getting-started)
+- [🚚 Imports](#-imports)
 - [📝 Templates](#-cli-templates)
 - [💅 Styles](#-styles)
 
@@ -20,7 +21,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📝 Imports
+## 🚚 Imports
 
 I am using aliases paths in this starter. You can add your own in the *tsconfig.json* file. 
 These are the aliases already configured: 
