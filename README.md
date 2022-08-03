@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) start using typescript, sass and recoil 
 
 - [🏁  Getting Started](#-getting-started)
+- [📝 Templates](#-cli-templates)
 - [💅 Styles](#-styles)
 
 
